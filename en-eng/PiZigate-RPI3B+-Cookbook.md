@@ -91,6 +91,10 @@ cd /home/pi/domoticz/plugins
 git clone https://github.com/sasu-drooz/Domoticz-Zigate.git
 chmod +x Domoticz-Zigate/plugin.py
 ```
+1. If not installed, install the lastest libpython-dev
+```
+sudo apt install libpython3.5-dev
+```
 
 1. If already installed, update to the newest version:
 
@@ -103,6 +107,7 @@ sudo reboot
 1. Startup the Pizigate: 
 
 ```
+cd /home/pi/domoticz/plugins/Domoticz-Zigate/Tools
 pi-zigate.sh run
 
 ```
